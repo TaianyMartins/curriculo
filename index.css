@@ -1,14 +1,14 @@
-*{ margin: 0px}
+*{margin: 0px}
 
 .container{
-    background-color:rgb(211, 211, 211);
+    background-color:rgb(241, 207, 180);
 }
 
 .header{ 
-    height: 120px;
+    height: 90px;
     width: 100%;
     text-align: left;
-    background: url("Imagens/Roxo.png");
+    background-color:rgb(58, 56, 69);
     background-size: cover;
     display: flex;
     align-items: center;
@@ -16,7 +16,7 @@
 }
 
 .menu ul{
-    background-color: rgb(34, 23, 34);
+    background-color: rgb(198, 155, 123);
     height: 50px;
     padding:0px;
     margin: 0px;
@@ -34,33 +34,36 @@
 
     padding: 10px 30px;
     display: inline-block;
-    background-color: rgb(34, 23, 34);
-    color: white;
+    background-color: rgb(198, 155, 123);
+    color: rgb(58, 56, 69);
     text-decoration: none;
     font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 .menu ul li a:hover{
-    color:rgb(34, 23, 34);
-    background-color:white ;
-    border-bottom: 3px solid white;
-}
+    color:rgb(58, 56, 69);
+    background-color:rgb(255, 251, 233);
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+  }
 
 img{
     position: relative; 
     left: 20px;
-    top: 80px;
-    width: 270px;
+    top: 85px;
+    width: 230px;
     border-radius: 0%;
     float: left;
     margin: 0 40px 5px 0;
 }
 
 .main1{
-    background-color: rgb(211, 211, 211);
-    height: 550px;
+    background-color: rgb(241, 207, 180);
+    height: 530px;
     position: relative;
-    max-width:1000px;
+    max-width:700px;
     margin: auto;
 }
 
@@ -68,9 +71,9 @@ img{
     position: relative; 
     left: 20px;
     top: 90px;
-    color: rgb(26, 6, 26);
-    font-size: 35px;
-    border-bottom: 3px solid rgb(26, 6, 26);
+    color: rgb(58, 56, 69);
+    font-size: 40px;
+    border-bottom: 3px solid rgb(58, 56, 69);
     font-family: 'Pacifico', cursive;
     font-family: 'Playfair Display', serif;
     font-family: 'Roboto Condensed', sans-serif;
@@ -81,8 +84,8 @@ img{
     left: 20px;
     top: 90px;  
     display: flex;
-    margin-top: 6px;
-    color: rgb(34, 23, 34);
+    margin-top: 7px;
+    color: rgb(58, 56, 69);
     font-size: 15px;
     font-family: 'Pacifico', cursive;
     font-family: 'Playfair Display', serif;
@@ -95,7 +98,7 @@ img{
     top: 100px; 
     margin-top: 15px;
     max-width: 800px;
-    color: rgb(26, 6, 26);
+    color: rgb(58, 56, 69);
     font-size: 18px;
     font-family: 'Pacifico', cursive;
     font-family: 'Playfair Display', serif;
@@ -103,19 +106,19 @@ img{
 }
 
 .main{
-    background-color: rgb(211, 211, 211);
-    height: 570px;
+    background-color: rgb(241, 207, 180);
+    height: 530px;
     display: block;
     position: relative;
-    max-width:950px;
+    max-width:700px;
     margin: auto;
 }
 
 .main h1{    
     margin-top: 50px;
     max-width: 70px;
-    border-bottom: 3px solid rgb(26, 6, 26);
-    color: rgb(26, 6, 26);
+    border-bottom: 3px solid rgb(58, 56, 69);
+    color: rgb(58, 56, 69);
     font-size: 30px;
     font-family: 'Pacifico', cursive;
     font-family: 'Playfair Display', serif;
@@ -125,8 +128,8 @@ img{
 .main h2{    
     margin-top: 50px;
     max-width: 140px;
-    border-bottom: 3px solid rgb(26, 6, 26);
-    color: rgb(26, 6, 26);
+    border-bottom: 3px solid rgb(58, 56, 69);
+    color: rgb(58, 56, 69);
     font-size: 30px;
     font-family: 'Pacifico', cursive;
     font-family: 'Playfair Display', serif;
@@ -136,8 +139,8 @@ img{
 .main h3{    
     margin-top: 50px;
     max-width: 95px;
-    border-bottom: 3px solid rgb(26, 6, 26);
-    color: rgb(26, 6, 26);
+    border-bottom: 3px solid rgb(58, 56, 69);
+    color: rgb(58, 56, 69);
     font-size: 30px;
     font-family: 'Pacifico', cursive;
     font-family: 'Playfair Display', serif;
@@ -147,7 +150,7 @@ img{
 .main p{    
     margin-top: 20px;
     max-width: 800px;
-    color: rgb(26, 6, 26);
+    color: rgb(58, 56, 69);
     font-size: 18px;
     font-family: 'Pacifico', cursive;
     font-family: 'Playfair Display', serif;
@@ -157,9 +160,9 @@ img{
 .main h4{  
     margin-top: 20px;
     max-width: 200px;
-    color: rgb(26, 6, 26);
+    color: rgb(58, 56, 69);
     font-size: 18px;
-    border-bottom: 3px double rgb(26, 6, 26);
+    border-bottom: 3px double rgb(58, 56, 69);
     font-family: 'Pacifico', cursive;
     font-family: 'Playfair Display', serif;
     font-family: 'Roboto Condensed', sans-serif;
@@ -168,8 +171,8 @@ img{
 .main h5{    
     margin-top: 20px;
     max-width: 140px;
-    border-bottom: 3px double rgb(26, 6, 26);
-    color: rgb(26, 6, 26);
+    border-bottom: 3px double rgb(58, 56, 69);
+    color: rgb(58, 56, 69);
     font-size: 18px;
     font-family: 'Pacifico', cursive;
     font-family: 'Playfair Display', serif;
@@ -177,12 +180,12 @@ img{
 }
 
 .footer{
-    background-color:gray;
+    background-color:rgb(130, 111, 102);
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(26, 6, 26);
+    color: rgb(58, 56, 69);
     font-size: 12px;
     font-family: 'Pacifico', cursive;
     font-family: 'Playfair Display', serif;

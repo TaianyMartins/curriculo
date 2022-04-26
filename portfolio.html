@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Contato</title>
         <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="bingo.css">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display:ital@0;1&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
@@ -31,16 +32,27 @@
             </div>
     
             <div class="main">
-                <h6>Contato</h6>
-                <p>E-mail: taianymds@gmail.com</p>
-                <p>Whatsapp: (11) 94229-9294</p> 
-                <p>São Paulo-SP</p>                                                                  
+                <div id="cabecalho">
+                    <button onclick="gerarCartelaBingo()">Gerar Cartela de Bingo</button>
+                    <button onclick="sorteio()">Iniciar Jogo</button>
+                    <button onclick="pararJogo()">Parar Jogo</button>
+                    <button onclick="deletarCartelas()">Limpar Cartelas</button>
+    
+                </div>
+                <div id="sorteados">
+    
+                </div>
+                <div id="cartela">
+                </div>
             </div>
+    
     
             <div class="footer">
-                <p> @ Todos os direitos reservados.</p>
-    
+                <p> Todos os direitos reservados.</p>
             </div>
+        </div>
+    
+        <script src="bingo.js"></script>
     
     </body>
     

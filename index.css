@@ -107,11 +107,11 @@ img{
 
 .main{
     background-color: rgb(241, 207, 180);
-    height: 530px;
     display: block;
-    position: relative;
-    max-width:700px;
+    max-width: 650px;
+    min-height: 550px;
     margin: auto;
+    flex: 1;
 }
 
 .main h1{    
@@ -137,9 +137,8 @@ img{
 }
 
 .main h3{    
-    margin-top: 50px;
-    max-width: 95px;
-    border-bottom: 3px solid rgb(58, 56, 69);
+    margin-top: 40px;
+    max-width: 600px;
     color: rgb(58, 56, 69);
     font-size: 30px;
     font-family: 'Pacifico', cursive;
@@ -179,13 +178,25 @@ img{
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.main h6{    
+    margin-top: 50px;
+    max-width: 95px;
+    border-bottom: 3px solid rgb(58, 56, 69);
+    color: rgb(58, 56, 69);
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 .footer{
-    background-color:rgb(130, 111, 102);
     height: 50px;
+    background-color:rgb(130, 111, 102);
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(58, 56, 69);
+    flex-wrap: wrap;
+    color: rgb(72, 52, 52);
     font-size: 12px;
     font-family: 'Pacifico', cursive;
     font-family: 'Playfair Display', serif;

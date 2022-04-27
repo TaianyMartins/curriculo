@@ -25,6 +25,14 @@ function gerarCartelaBingo(){
     numeroCartelas = numeroCartelas + 1;
 
     let dono = prompt("Digite o nome do dono da cartela");
+
+    console.log(dono);
+
+    if(dono == null){
+        alert("Você precisa digitar um nome!");
+        return;
+    }
+
     let h3dono = document.createElement("h3");
     h3dono.innerText = dono;
 
@@ -103,6 +111,7 @@ function deletarCartelas(){
     }
 
     numeroCartelas = 0;
+    jogoEstaAcontecendo = false;
     
     let divCartela = document.getElementById("cartela");
     let divSorteado = document.getElementById("sorteados");
@@ -110,6 +119,7 @@ function deletarCartelas(){
     let h3donos = divCartela.getElementsByTagName("h3");
     let spans = divSorteado.getElementsByTagName("span");
 
+    let divPerdida = divCartela.getElementsByTagName("div");
     
    while(cartelas[0]){
        cartelas[0].parentNode.removeChild(cartelas[0]);
@@ -122,9 +132,14 @@ function deletarCartelas(){
     
     }
 
+    while(divPerdida[0]){
+        divPerdida[0].parentNode.removeChild(divPerdida[0]);
+        
+        }
+
 }
 
-var intervalo
+var intervalo;
 
 function sorteio(){
 
